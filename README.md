@@ -1,2 +1,0 @@
-# SedexDev
-My First Project
