@@ -27,7 +27,7 @@ Devuelve un diccionario estructurado, listo para ser consumido por una API.
 ```python
 from explorador_archivo import montar_drive, list_files_in_directory, DIRECTORIO
 
-montar_drive()                              # monta /content/drive
+montar_drive()                            
 resultado = list_files_in_directory(DIRECTORIO)
 ```
 
