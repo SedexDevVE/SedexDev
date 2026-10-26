@@ -83,6 +83,10 @@ inventario.json: INVÁLIDO - Se esperaba una lista y se obtuvo dict.
 
 Directorio inexistente:
 
+> Agrega aquí tus capturas de pantalla de la ejecución en Colab, por ejemplo:
+> <img width="1209" height="529" alt="image" src="https://github.com/user-attachments/assets/94566e3c-b983-4ff2-90f6-5616e5aa4581" />
+
+
 ```
 Directorio no encontrado.
 ```
