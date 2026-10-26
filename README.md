@@ -1,4 +1,4 @@
-# Explorador de Google Drive (LPII 2026)
+# Explorador de Google Drive
 
 Módulo en Python que monta Google Drive (Google Colab), explora un directorio
 configurado mediante constantes y procesa archivos de datos `.json` y `.csv`.
