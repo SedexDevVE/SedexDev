@@ -16,7 +16,7 @@ Devuelve un diccionario estructurado, listo para ser consumido por una API.
 
 ```
 .
-├── explorador_drive.py
+├── explorador_archivo.py
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -25,7 +25,7 @@ Devuelve un diccionario estructurado, listo para ser consumido por una API.
 ## Uso en Google Colab
 
 ```python
-from explorador_drive import montar_drive, list_files_in_directory, DIRECTORIO
+from explorador_archivo import montar_drive, list_files_in_directory, DIRECTORIO
 
 montar_drive()                              # monta /content/drive
 resultado = list_files_in_directory(DIRECTORIO)
@@ -37,15 +37,15 @@ También se puede ejecutar como script: `python explorador_drive.py`.
 
 | Constante | Valor por defecto |
 |---|---|
-| `DIRECTORIO` | `/content/drive/My Drive/LPII_2026` |
+| `DIRECTORIO` | `/content/drive/My Drive/` |
 | `EXTENSIONES_PERMITIDAS` | `('.json', '.csv')` |
-| `ARCHIVO_INVENTARIO` | `inventario.json` |
+| `ARCHIVO_INVENTARIO` | `InventarioColab` |
 
 ## Estructura del diccionario retornado
 
 ```json
 {
-  "directorio": "/content/drive/My Drive/LPII_2026",
+  "directorio": "/content/drive/My Drive/",
   "existe": true,
   "total_archivos": 2,
   "archivos": [
@@ -86,9 +86,6 @@ Directorio inexistente:
 ```
 Directorio no encontrado.
 ```
-
-> Agrega aquí tus capturas de pantalla de la ejecución en Colab, por ejemplo:
-> `![Ejecución en Colab](capturas/colab.png)`
 
 ## Licencia
 
